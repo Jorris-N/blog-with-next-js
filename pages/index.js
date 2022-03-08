@@ -29,6 +29,10 @@ const BlockPostPreview = (props) =>{
     <div>
          
            {/* <Image src={data.CoverImage} alt={data.title} layout="fill"/> */}
+           <img
+           src = {data.CoverImage}
+           alt = {data.title}
+           style={{width: "100%"}}/>
           <h2>
             <Link href={`/blog/${data.slug}`}>
               <a>{data.title}</a>
